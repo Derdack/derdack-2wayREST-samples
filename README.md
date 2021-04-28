@@ -38,7 +38,7 @@ It contains script runtime and configuration information. Key data is the entere
 |state.items|A collection in which you can store serializable data which will persists multiple onSubscriptionEvent script invocations.|
 |state.callbackSaveState|A callback method that can be used to save state information.|
 
-### <u>Example JSON model</u>
+#### <u>Example JSON model</u>
 
 
 ```json
@@ -86,7 +86,7 @@ The key objects or properties that are part of of the event are described in the
 
 <br><br>
 
-### <u>Example: Alert was triggered</u>
+#### <u>Example: Alert was triggered</u>
 
 The below example refers to an event that has triggered a policy and opened an alert because eventType is 200 and alert.statusCode equals 1.
 Additionally, the alert has parameters which originated from the incoming event.
